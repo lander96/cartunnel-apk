@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="@dimen/card_padding" android:layout_marginTop="@dimen/control_gap" android:background="@drawable/profile_card" android:focusable="true" android:clickable="true" android:minHeight="@dimen/touch_target">
+    <TextView android:id="@+id/profile_selected" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="24dp" android:textColor="@color/text"/>
+    <TextView android:id="@+id/profile_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="@dimen/type_data" android:fontFamily="sans-serif-medium"/>
+    <TextView android:id="@+id/profile_server" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="@color/muted"/>
+    <TextView android:id="@+id/profile_health" android:layout_width="match_parent" android:layout_height="wrap_content" android:minLines="2" android:accessibilityLiveRegion="polite"/>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+        <Button android:id="@+id/profile_test" android:layout_width="0dp" android:layout_height="@dimen/button_height" android:layout_weight="1" android:text="测试"/>
+        <Button android:id="@+id/profile_more" android:layout_width="0dp" android:layout_height="@dimen/button_height" android:layout_weight="1" android:layout_marginStart="@dimen/control_gap" android:text="更多"/>
+    </LinearLayout>
+</LinearLayout>

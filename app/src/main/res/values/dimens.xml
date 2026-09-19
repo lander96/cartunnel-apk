@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<resources>
+    <dimen name="page_padding">24dp</dimen>
+    <dimen name="section_gap">18dp</dimen>
+    <dimen name="control_gap">10dp</dimen>
+    <dimen name="card_padding">16dp</dimen>
+    <dimen name="radius">10dp</dimen>
+    <dimen name="radius_small">6dp</dimen>
+    <dimen name="radius_large">14dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="primary_height">68dp</dimen>
+    <dimen name="touch_target">48dp</dimen>
+    <dimen name="type_body">16sp</dimen>
+    <dimen name="type_title">22sp</dimen>
+    <dimen name="type_data">18sp</dimen>
+    <dimen name="type_mono">13sp</dimen>
+</resources>

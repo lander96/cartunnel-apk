@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="@dimen/page_padding">
+        <TextView android:id="@+id/profile_title" style="@style/CarTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="新增节点"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="VMess AEAD · WebSocket · 无 TLS"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_gap" android:labelFor="@id/profile_name" android:text="节点名"/>
+        <EditText android:id="@+id/profile_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="text" android:maxLength="40" android:importantForAutofill="no"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_gap" android:labelFor="@id/profile_server" android:text="服务器域名或 IPv4"/>
+        <EditText android:id="@+id/profile_server" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textUri" android:maxLength="253" android:importantForAutofill="no"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_gap" android:labelFor="@id/profile_port" android:text="端口"/>
+        <EditText android:id="@+id/profile_port" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number" android:maxLength="5" android:importantForAutofill="no"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_gap" android:labelFor="@id/profile_uuid" android:text="UUID"/>
+        <EditText android:id="@+id/profile_uuid" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword" android:maxLength="36" android:importantForAutofill="no"/>
+        <CheckBox android:id="@+id/profile_show_password" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="显示 UUID"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_gap" android:labelFor="@id/profile_ws_host" android:text="WebSocket Host"/>
+        <EditText android:id="@+id/profile_ws_host" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textUri" android:maxLength="253" android:importantForAutofill="no"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_gap" android:labelFor="@id/profile_ws_path" android:text="WebSocket 路径"/>
+        <EditText android:id="@+id/profile_ws_path" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textUri" android:maxLength="256" android:importantForAutofill="no"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Host 与路径请照服务端填写。VMess 载荷加密，外层 IP、端口、Host 和路径可被链路观察。"/>
+        <TextView android:id="@+id/profile_error_summary" android:layout_width="match_parent" android:layout_height="wrap_content" android:minLines="2" android:textColor="@color/danger" android:visibility="invisible" android:accessibilityLiveRegion="polite"/>
+        <Button android:id="@+id/profile_save" android:layout_width="match_parent" android:layout_height="@dimen/button_height" android:text="保存节点"/>
+        <Button android:id="@+id/profile_cancel" android:layout_width="match_parent" android:layout_height="@dimen/button_height" android:text="取消"/>
+    </LinearLayout>
+</ScrollView>

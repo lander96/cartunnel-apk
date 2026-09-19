@@ -1,0 +1,16 @@
+{
+  "profile": "product-admin",
+  "sourceRoots": ["app/src/main"],
+  "locale": "zh-CN",
+  "canonicalMap": "UX-CONTRACT.md",
+  "requiredCapabilities": ["Form", "CRUD", "Toast", "Scrollbar"],
+  "requiredCommands": ["android", "android-ui"],
+  "commands": {
+    "android": "bash -c 'source scripts/env.sh && ./gradlew --offline testDebugUnitTest lintDebug assembleDebugAndroidTest assemblePreviewRelease'",
+    "android-ui": "python3 scripts/verify-android-ui.py"
+  },
+  "evidence": {
+    "crudFullFlow": "docs/verification/1.1.0-vmess-only.md",
+    "failurePaths": "app/src/test/java/com/cartunnel/client/profile/ProfileDeletionTransactionTest.kt"
+  }
+}

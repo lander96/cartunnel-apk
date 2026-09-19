@@ -1,0 +1,17 @@
+# Reviewed input lock. Do not substitute floating versions.
+android.compileSdk=36
+android.targetSdk=36
+android.minSdk=28
+agp=8.10.1
+kotlin=2.1.10
+gradle=8.11.1
+android.ndk=27.2.12479018
+go=1.26.8
+gomobile.module=golang.org/x/mobile@v0.0.0-20260312152759-81488f6aeb60
+gomobile.commit=81488f6aeb6061e95a0436a552af20142e0e7de8
+xray.server=v26.3.27
+androidLibXrayLite.tag=v26.3.27
+androidLibXrayLite.commit=880725442c1d4023a973ccbcdbf527c89ef83a32
+xray.core.commit=d2758a023cd7f4174a5a5fa4ff66e487d4342ba0
+hev.tag=2.17.1
+hev.commit=9a06bc6e7989da54e3d32ff701ef7a7ce4995d3a

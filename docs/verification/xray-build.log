@@ -1,0 +1,843 @@
+write /var/folders/hp/tqkd5mk15836h2glxspxk6p80000gn/T/gomobile-work-1462356700/src-android-arm64/go.mod
+go: found github.com/2dust/AndroidLibXrayLite in github.com/2dust/AndroidLibXrayLite v0.0.0-00010101000000-000000000000
+go: downloading github.com/golang/mock v1.7.0-rc.1
+go: downloading github.com/google/go-cmp v0.7.0
+go: downloading github.com/stretchr/testify v1.11.1
+go: downloading gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
+go: downloading go.opentelemetry.io/otel/sdk/metric v1.39.0
+go: downloading go.opentelemetry.io/otel v1.39.0
+go: downloading github.com/xyproto/randomstring v1.0.5
+go: downloading github.com/golang/protobuf v1.5.4
+go: downloading go.opentelemetry.io/otel/metric v1.39.0
+go: downloading go.opentelemetry.io/otel/sdk v1.39.0
+go: downloading go.opentelemetry.io/otel/trace v1.39.0
+go: downloading gonum.org/v1/gonum v0.16.0
+go: downloading github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
+go: downloading github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2
+go: downloading github.com/kr/pretty v0.3.1
+go: downloading gopkg.in/yaml.v3 v3.0.1
+go: downloading github.com/cespare/xxhash/v2 v2.3.0
+go: downloading github.com/go-logr/logr v1.4.3
+go: downloading github.com/go-logr/stdr v1.2.2
+go: downloading go.opentelemetry.io/auto/sdk v1.2.1
+go: downloading github.com/google/uuid v1.6.0
+go: downloading github.com/kr/text v0.2.0
+unused cel.dev/expr
+unused cloud.google.com/go/compute/metadata
+unused github.com/BurntSushi/toml
+unused github.com/GoogleCloudPlatform/opentelemetry-operations-go/detectors/gcp
+unused github.com/Microsoft/go-winio
+unused github.com/Microsoft/hcsshim
+unused github.com/bazelbuild/rules_go
+unused github.com/bwesterb/go-ristretto
+unused github.com/cenkalti/backoff
+unused github.com/cespare/xxhash/v2
+unused github.com/cilium/ebpf
+unused github.com/cncf/xds/go
+unused github.com/containerd/cgroups
+unused github.com/containerd/console
+unused github.com/containerd/containerd
+unused github.com/containerd/errdefs
+unused github.com/containerd/fifo
+unused github.com/containerd/go-runc
+unused github.com/containerd/log
+unused github.com/containerd/ttrpc
+unused github.com/containerd/typeurl
+unused github.com/coreos/go-systemd/v22
+unused github.com/creack/pty
+unused github.com/docker/go-events
+unused github.com/docker/go-units
+unused github.com/dvyukov/go-fuzz
+unused github.com/envoyproxy/go-control-plane
+unused github.com/envoyproxy/go-control-plane/envoy
+unused github.com/envoyproxy/go-control-plane/ratelimit
+unused github.com/envoyproxy/protoc-gen-validate
+unused github.com/go-jose/go-jose/v4
+unused github.com/go-logr/logr
+unused github.com/go-logr/stdr
+unused github.com/godbus/dbus/v5
+unused github.com/gofrs/flock
+unused github.com/gogo/protobuf
+unused github.com/golang/glog
+unused github.com/golang/groupcache
+unused github.com/golang/mock
+unused github.com/golang/protobuf
+unused github.com/google/go-cmp
+unused github.com/google/gofuzz
+unused github.com/google/subcommands
+unused github.com/google/uuid
+unused github.com/googleapis/enterprise-certificate-proxy
+unused github.com/googleapis/gnostic
+unused github.com/hashicorp/errwrap
+unused github.com/hashicorp/go-multierror
+unused github.com/jordanlewis/gcassert
+unused github.com/json-iterator/go
+unused github.com/kr/pretty
+unused github.com/kr/pty
+unused github.com/kr/text
+unused github.com/mattbaird/jsonpatch
+unused github.com/moby/sys/capability
+unused github.com/moby/sys/mountinfo
+unused github.com/modern-go/concurrent
+unused github.com/modern-go/reflect2
+unused github.com/mohae/deepcopy
+unused github.com/opencontainers/go-digest
+unused github.com/opencontainers/image-spec
+unused github.com/opencontainers/runtime-spec
+unused github.com/pkg/errors
+unused github.com/planetscale/vtprotobuf
+unused github.com/rogpeppe/go-internal
+unused github.com/sirupsen/logrus
+unused github.com/spiffe/go-spiffe/v2
+unused github.com/stretchr/testify
+unused github.com/xyproto/randomstring
+unused github.com/yuin/goldmark
+unused go.opencensus.io
+unused go.opentelemetry.io/auto/sdk
+unused go.opentelemetry.io/contrib/detectors/gcp
+unused go.opentelemetry.io/otel
+unused go.opentelemetry.io/otel/metric
+unused go.opentelemetry.io/otel/sdk
+unused go.opentelemetry.io/otel/sdk/metric
+unused go.opentelemetry.io/otel/trace
+unused go.uber.org/mock
+unused golang.org/x/exp/shiny
+unused golang.org/x/exp/typeparams
+unused golang.org/x/image
+unused golang.org/x/oauth2
+unused golang.org/x/telemetry
+unused golang.org/x/term
+unused golang.org/x/tools/go/expect
+unused golang.org/x/tools/go/packages/packagestest
+unused golang.org/x/xerrors
+unused gonum.org/v1/gonum
+unused google.golang.org/api
+unused google.golang.org/genproto/googleapis/api
+unused gopkg.in/check.v1
+unused gopkg.in/inf.v0
+unused gopkg.in/yaml.v3
+unused h12.io/socks
+unused honnef.co/go/tools
+unused k8s.io/api
+unused k8s.io/apimachinery
+unused k8s.io/client-go
+unused k8s.io/klog/v2
+unused k8s.io/kube-openapi
+unused k8s.io/utils
+unused sigs.k8s.io/json
+unused sigs.k8s.io/structured-merge-diff/v4
+unused sigs.k8s.io/yaml
+internal/goarch
+internal/unsafeheader
+internal/byteorder
+internal/coverage/rtcov
+math/bits
+internal/godebugs
+internal/goos
+internal/profilerecord
+internal/goexperiment
+internal/cpu
+internal/msan
+internal/asan
+internal/runtime/syscall/linux
+internal/abi
+internal/runtime/gc
+internal/runtime/math
+internal/runtime/pprof/label
+internal/strconv
+internal/trace/tracev2
+cmp
+math
+unicode/utf8
+sync/atomic
+unicode
+google.golang.org/protobuf/internal/flags
+unicode/utf16
+internal/bytealg
+internal/chacha8rand
+internal/runtime/atomic
+internal/runtime/sys
+encoding
+google.golang.org/protobuf/internal/set
+github.com/xtls/xray-core/common/signal/semaphore
+log/internal
+internal/nettrace
+internal/goversion
+internal/platform
+internal/syslist
+github.com/sagernet/sing/common/x/constraints
+internal/race
+internal/runtime/exithook
+internal/runtime/gc/scan
+internal/synctest
+crypto/internal/fips140/alias
+crypto/internal/fips140deps/byteorder
+internal/runtime/maps
+internal/sync
+crypto/internal/fips140deps/cpu
+crypto/internal/constanttime
+crypto/internal/boring/sig
+internal/runtime/cgroup
+internal/stringslite
+github.com/sagernet/sing/common/debug
+github.com/xtls/xray-core/common/bitmask
+golang.org/x/crypto/internal/alias
+container/list
+crypto/internal/fips140/subtle
+vendor/golang.org/x/crypto/cryptobyte/asn1
+vendor/golang.org/x/crypto/internal/alias
+google.golang.org/grpc/serviceconfig
+google.golang.org/grpc/encoding/internal
+github.com/apernet/quic-go/internal/utils/ringbuffer
+github.com/klauspost/compress
+github.com/klauspost/compress/internal/le
+golang.org/x/net/internal/iana
+github.com/refraction-networking/utls/dicttls
+github.com/refraction-networking/utls/internal/byteorder
+github.com/refraction-networking/utls/internal/fips140tls
+golang.org/x/crypto/cryptobyte/asn1
+crypto/subtle
+github.com/cloudflare/circl/sign/internal/dilithium/params
+log/slog/internal
+golang.org/x/exp/constraints
+gvisor.dev/gvisor/pkg/tcpip/seqnum
+gvisor.dev/gvisor/pkg/gohacks
+runtime
+golang.zx2c4.com/wireguard/replay
+github.com/cloudflare/circl/sign/internal/dilithium
+gvisor.dev/gvisor/pkg/bits
+weak
+internal/reflectlite
+iter
+sync
+maps
+slices
+internal/bisect
+github.com/xtls/xray-core/common/bytespool
+google.golang.org/protobuf/internal/pragma
+github.com/xtls/xray-core/common/signal/done
+unique
+internal/singleflight
+internal/testlog
+crypto/internal/fips140cache
+errors
+sort
+github.com/apernet/quic-go/internal/utils/linkedlist
+github.com/xtls/xray-core/common/cache
+log/slog/internal/buffer
+internal/godebug
+internal/oserror
+io
+strconv
+path
+vendor/golang.org/x/net/dns/dnsmessage
+math/rand/v2
+syscall
+google.golang.org/grpc/internal/buffer
+crypto/internal/fips140deps/godebug
+math/rand
+golang.org/x/net/dns/dnsmessage
+strings
+hash
+reflect
+bytes
+encoding/base64
+hash/fnv
+hash/crc32
+net/netip
+crypto
+go/build/constraint
+bufio
+regexp/syntax
+github.com/xtls/xray-core/common/cmdarg
+crypto/internal/fips140
+crypto/internal/impl
+crypto/internal/randutil
+github.com/xtls/xray-core/common/dice
+html
+internal/saferio
+crypto/internal/fips140/sha256
+crypto/internal/fips140/sha3
+crypto/internal/fips140/sha512
+encoding/pem
+time
+internal/syscall/unix
+internal/syscall/execenv
+vendor/golang.org/x/text/transform
+net/http/internal/ascii
+golang.org/x/text/transform
+crypto/internal/fips140/hmac
+crypto/sha3
+hash/adler32
+encoding/base32
+regexp
+crypto/internal/fips140/check
+github.com/cloudflare/circl/sign
+github.com/xtls/xray-core/transport/internet/hysteria/padding
+crypto/internal/fips140hash
+hash/crc64
+gvisor.dev/gvisor/pkg/tcpip/hash/jenkins
+crypto/internal/fips140/aes
+crypto/fips140
+crypto/internal/fips140/edwards25519/field
+crypto/internal/fips140/nistec/fiat
+crypto/internal/fips140/bigmod
+crypto/internal/fips140/hkdf
+crypto/internal/fips140/tls12
+crypto/internal/fips140/edwards25519
+crypto/internal/fips140/tls13
+crypto/tls/internal/fips140tls
+github.com/xtls/reality/fips140tls
+container/heap
+io/fs
+context
+crypto/internal/fips140deps/time
+github.com/sagernet/sing/common/replay
+google.golang.org/grpc/backoff
+google.golang.org/grpc/balancer/pickfirst/internal
+internal/poll
+crypto/internal/fips140/nistec
+google.golang.org/grpc/internal/idle
+crypto/internal/entropy/v1.0.0
+golang.org/x/net/internal/httpsfv
+google.golang.org/grpc/keepalive
+github.com/xtls/xray-core/common/ctx
+internal/filepathlite
+embed
+google.golang.org/grpc/internal/backoff
+google.golang.org/grpc/internal/grpcsync
+github.com/apernet/quic-go/internal/monotime
+github.com/juju/ratelimit
+github.com/sagernet/sing/common/logger
+internal/fmtsort
+encoding/binary
+github.com/xtls/xray-core/common/antireplay
+google.golang.org/protobuf/internal/editiondefaults
+golang.zx2c4.com/wireguard/ratelimiter
+github.com/apernet/quic-go/monotime
+os
+github.com/xtls/xray-core/common/crypto/internal
+github.com/sagernet/sing/common/binary
+github.com/klauspost/compress/internal/snapref
+golang.org/x/crypto/internal/poly1305
+vendor/golang.org/x/crypto/internal/poly1305
+github.com/klauspost/compress/zstd/internal/xxhash
+golang.org/x/sys/unix
+github.com/cloudflare/circl/internal/sha3
+gvisor.dev/gvisor/pkg/tcpip/checksum
+golang.org/x/crypto/blake2s
+golang.org/x/crypto/poly1305
+golang.zx2c4.com/wireguard/tai64n
+golang.org/x/crypto/blake2b
+google.golang.org/protobuf/internal/detrand
+internal/lazyregexp
+fmt
+crypto/internal/sysrand
+io/ioutil
+path/filepath
+google.golang.org/grpc/internal/envconfig
+golang.org/x/sys/cpu
+crypto/internal/fips140/drbg
+os/signal
+github.com/xtls/xray-core/common/platform
+os/exec
+crypto/internal/fips140only
+crypto/internal/fips140/aes/gcm
+crypto/internal/fips140/ecdh
+crypto/internal/fips140/ecdsa
+crypto/internal/fips140/ed25519
+crypto/md5
+crypto/hkdf
+crypto/internal/fips140/mlkem
+crypto/rc4
+crypto/internal/fips140/rsa
+github.com/refraction-networking/utls/internal/hkdf
+internal/goroot
+google.golang.org/protobuf/internal/errors
+go/token
+compress/flate
+google.golang.org/protobuf/encoding/protowire
+encoding/json
+google.golang.org/protobuf/internal/version
+log
+go/doc/comment
+internal/buildcfg
+google.golang.org/protobuf/reflect/protoreflect
+go/internal/scannerhooks
+encoding/hex
+go/scanner
+crypto/cipher
+math/big
+runtime/debug
+go/ast
+compress/gzip
+gopkg.in/yaml.v2
+crypto/internal/boring
+crypto/internal/rand
+crypto/sha1
+crypto/aes
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/order
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/protolazy
+crypto/sha256
+golang.org/x/crypto/chacha20
+crypto/hmac
+flag
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/internal/encoding/defval
+go/doc
+go/parser
+golang.org/x/crypto/hkdf
+golang.org/x/crypto/chacha20poly1305
+golang.org/x/net/internal/timeseries
+net/url
+text/template/parse
+github.com/klauspost/cpuid/v2
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/encoding/prototext
+crypto/des
+crypto/ecdh
+crypto/rand
+github.com/pelletier/go-toml
+crypto/elliptic
+crypto/internal/boring/bbig
+crypto/sha512
+go/build
+crypto/ed25519
+encoding/asn1
+crypto/mlkem
+text/template
+vendor/golang.org/x/crypto/chacha20
+github.com/ghodss/yaml
+vendor/golang.org/x/crypto/chacha20poly1305
+crypto/rsa
+vendor/golang.org/x/crypto/cryptobyte
+crypto/hpke
+crypto/dsa
+google.golang.org/protobuf/internal/encoding/tag
+lukechampine.com/blake3/guts
+crypto/x509/pkix
+google.golang.org/protobuf/internal/impl
+lukechampine.com/blake3/bao
+crypto/ecdsa
+vendor/golang.org/x/text/unicode/bidi
+vendor/golang.org/x/text/unicode/norm
+vendor/golang.org/x/net/http2/hpack
+lukechampine.com/blake3
+mime
+mime/quotedprintable
+net/http/internal
+html/template
+vendor/golang.org/x/text/secure/bidirule
+text/tabwriter
+google.golang.org/grpc/grpclog/internal
+google.golang.org/grpc/attributes
+google.golang.org/grpc/grpclog
+google.golang.org/protobuf/internal/encoding/json
+golang.org/x/text/unicode/bidi
+google.golang.org/grpc/connectivity
+google.golang.org/grpc/internal/grpclog
+golang.org/x/text/unicode/norm
+golang.org/x/net/http2/hpack
+github.com/apernet/quic-go/quicvarint
+golang.org/x/text/secure/bidirule
+vendor/golang.org/x/net/idna
+google.golang.org/protobuf/encoding/protojson
+github.com/apernet/quic-go/qlogwriter/jsontext
+github.com/apernet/quic-go/internal/utils/tree
+golang.org/x/net/bpf
+compress/zlib
+github.com/andybalholm/brotli/matchfinder
+github.com/klauspost/compress/fse
+github.com/refraction-networking/utls/internal/boring
+golang.org/x/crypto/cryptobyte
+github.com/refraction-networking/utls/internal/quicvarint/protocol
+github.com/refraction-networking/utls/internal/hpke
+github.com/refraction-networking/utls/internal/tls12
+golang.org/x/net/idna
+github.com/refraction-networking/utls/internal/tls13
+golang.org/x/crypto/sha3
+github.com/klauspost/compress/huff0
+github.com/refraction-networking/utls/internal/quicvarint
+encoding/gob
+golang.org/x/sync/singleflight
+internal/profile
+runtime/pprof
+runtime/trace
+github.com/cloudflare/circl/simd/keccakf1600
+github.com/refraction-networking/utls/internal/helper
+github.com/xtls/reality/hpke
+github.com/xtls/reality/tls12
+github.com/xtls/reality/tls13
+github.com/klauspost/compress/zstd
+golang.org/x/crypto/curve25519
+github.com/cloudflare/circl/sign/mldsa/mldsa65/internal
+github.com/xtls/xray-core/infra/conf/cfgcommon/duration
+github.com/quic-go/qpack
+golang.org/x/time/rate
+log/slog
+gvisor.dev/gvisor/pkg/sync
+gvisor.dev/gvisor/pkg/state/wire
+github.com/google/btree
+gvisor.dev/gvisor/pkg/state
+github.com/cloudflare/circl/sign/mldsa/mldsa65
+gvisor.dev/gvisor/pkg/rawfile
+golang.zx2c4.com/wireguard/rwcancel
+github.com/xtls/xray-core/main/commands/base
+gvisor.dev/gvisor/pkg/linewriter
+gvisor.dev/gvisor/pkg/rand
+gvisor.dev/gvisor/pkg/sync/locking
+gvisor.dev/gvisor/pkg/log
+github.com/xtls/xray-core/common/strmatcher
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/runtime/protoimpl
+gvisor.dev/gvisor/pkg/cpuid
+gvisor.dev/gvisor/pkg/waiter
+gvisor.dev/gvisor/pkg/sleep
+gvisor.dev/gvisor/pkg/tcpip/link/stopfd
+github.com/xtls/xray-core/common/serial
+google.golang.org/protobuf/protoadapt
+google.golang.org/protobuf/types/known/durationpb
+google.golang.org/protobuf/types/known/timestamppb
+google.golang.org/protobuf/types/known/anypb
+google.golang.org/protobuf/types/descriptorpb
+gvisor.dev/gvisor/pkg/context
+gvisor.dev/gvisor/pkg/atomicbitops
+runtime/cgo
+google.golang.org/grpc/internal/pretty
+google.golang.org/grpc/binarylog/grpc_binarylog_v1
+google.golang.org/genproto/googleapis/rpc/status
+gvisor.dev/gvisor/pkg/refs
+gvisor.dev/gvisor/pkg/buffer
+google.golang.org/protobuf/internal/editionssupport
+google.golang.org/protobuf/types/gofeaturespb
+google.golang.org/protobuf/reflect/protodesc
+golang.org/x/mobile/internal/mobileinit
+net
+golang.org/x/mobile/bind/seq
+golang.org/x/mobile/bind/java
+golang.org/x/mobile/asset
+vendor/golang.org/x/net/http/httpproxy
+google.golang.org/grpc/internal/syscall
+google.golang.org/grpc/internal
+github.com/xtls/xray-core/common/log
+net/textproto
+github.com/pires/go-proxyproto
+github.com/sagernet/sing/common
+crypto/x509
+google.golang.org/grpc/internal/resolver/dns/internal
+golang.org/x/net/internal/socket
+vendor/golang.org/x/net/http/httpguts
+mime/multipart
+github.com/sagernet/sing/common/format
+github.com/xtls/xray-core/common/errors
+github.com/sagernet/sing/common/x/list
+github.com/sagernet/sing/common/auth
+github.com/sagernet/sing/common/cache
+github.com/sagernet/sing/common/random
+github.com/sagernet/sing/common/exceptions
+github.com/xtls/xray-core/common
+github.com/xtls/xray-core/main/confloader
+github.com/xtls/xray-core/common/net
+github.com/xtls/xray-core/transport/internet/finalmask
+google.golang.org/grpc/metadata
+google.golang.org/grpc/codes
+google.golang.org/grpc/mem
+github.com/sagernet/sing/common/task
+github.com/sagernet/sing/common/buf
+google.golang.org/grpc/stats
+google.golang.org/grpc/internal/grpcutil
+google.golang.org/grpc/internal/balancerload
+google.golang.org/grpc/internal/status
+golang.org/x/net/http/httpguts
+github.com/xtls/xray-core/app/log
+github.com/xtls/xray-core/common/task
+github.com/xtls/xray-core/features
+github.com/xtls/xray-core/common/uuid
+google.golang.org/grpc/experimental/stats
+google.golang.org/grpc/encoding
+google.golang.org/grpc/status
+github.com/xtls/xray-core/features/stats
+github.com/xtls/xray-core/common/signal
+github.com/xtls/xray-core/features/inbound
+github.com/xtls/xray-core/features/policy
+google.golang.org/grpc/encoding/proto
+github.com/sagernet/sing/common/metadata
+google.golang.org/grpc/internal/stats
+google.golang.org/grpc/tap
+github.com/xtls/xray-core/transport/internet/stat
+google.golang.org/grpc/internal/binarylog
+github.com/xtls/xray-core/features/extension
+golang.org/x/net/ipv4
+golang.org/x/net/ipv6
+go4.org/netipx
+github.com/xtls/xray-core/common/signal/pubsub
+github.com/xtls/xray-core/app/stats
+github.com/xtls/xray-core/common/buf
+github.com/xtls/xray-core/features/dns
+github.com/xtls/xray-core/app/policy
+github.com/xtls/xray-core/app/version
+github.com/sagernet/sing/common/network
+github.com/xtls/xray-core/features/dns/localdns
+golang.org/x/crypto/ocsp
+github.com/xtls/xray-core/common/protocol/tls/cert
+crypto/tls
+github.com/xtls/xray-core/app/dns/fakedns
+github.com/xtls/xray-core/common/retry
+github.com/xtls/xray-core/common/drain
+gvisor.dev/gvisor/pkg/tcpip
+github.com/xtls/xray-core/common/platform/filesystem
+github.com/xtls/xray-core/common/net/cnc
+github.com/xtls/xray-core/transport
+github.com/xtls/xray-core/common/protocol
+github.com/xtls/xray-core/transport/pipe
+github.com/xtls/xray-core/common/protocol/udp
+github.com/sagernet/sing/common/control
+github.com/sagernet/sing/common/pipe
+github.com/xtls/xray-core/common/protocol/bittorrent
+github.com/xtls/xray-core/features/outbound
+github.com/xtls/xray-core/features/routing
+github.com/xtls/xray-core/common/protocol/dns
+golang.zx2c4.com/wireguard/conn
+github.com/sagernet/sing/common/udpnat
+golang.zx2c4.com/wireguard/ipc
+github.com/xtls/xray-core/transport/internet/finalmask/header/dns
+github.com/xtls/xray-core/transport/internet/tagged
+github.com/xtls/xray-core/features/routing/dns
+github.com/sagernet/sing/common/bufio
+github.com/xtls/xray-core/common/session
+github.com/sagernet/sing-shadowsocks
+github.com/xtls/xray-core/common/protocol/tls
+github.com/xtls/xray-core/common/crypto
+github.com/xtls/xray-core/proxy/hysteria/account
+github.com/xtls/xray-core/transport/internet/finalmask/header/dtls
+github.com/xtls/xray-core/transport/internet/finalmask/header/srtp
+github.com/xtls/xray-core/transport/internet
+github.com/xtls/xray-core/features/routing/session
+github.com/xtls/xray-core/common/xudp
+github.com/xtls/xray-core/proxy/vless/encryption
+github.com/xtls/xray-core/proxy/hysteria/ctx
+github.com/xtls/xray-core/transport/internet/hysteria/udphop
+github.com/xtls/xray-core/proxy/vmess/aead
+github.com/xtls/xray-core/transport/internet/finalmask/fragment
+github.com/xtls/xray-core/transport/internet/finalmask/header/custom
+golang.zx2c4.com/wireguard/tun
+github.com/xtls/xray-core/proxy/vmess
+github.com/xtls/xray-core/transport/internet/finalmask/header/wechat
+github.com/xtls/xray-core/transport/internet/finalmask/header/utp
+github.com/xtls/xray-core/transport/internet/finalmask/header/wireguard
+github.com/xtls/xray-core/transport/internet/finalmask/mkcp/aes128gcm
+github.com/xtls/xray-core/transport/internet/finalmask/mkcp/original
+github.com/xtls/xray-core/proxy/vmess/encoding
+github.com/xtls/xray-core/transport/internet/finalmask/noise
+github.com/xtls/xray-core/transport/internet/finalmask/salamander
+github.com/xtls/xray-core/transport/internet/finalmask/sudoku
+github.com/xtls/xray-core/transport/internet/finalmask/xdns
+golang.org/x/net/icmp
+github.com/xtls/xray-core/transport/internet/headers/noop
+golang.zx2c4.com/wireguard/device
+github.com/xtls/xray-core/app/proxyman
+github.com/xtls/xray-core/transport/internet/udp
+github.com/xtls/xray-core/proxy/blackhole
+gvisor.dev/gvisor/pkg/tcpip/header
+github.com/sagernet/sing/common/varbin
+github.com/sagernet/sing/common/uot
+gvisor.dev/gvisor/pkg/tcpip/internal/tcp
+gvisor.dev/gvisor/pkg/tcpip/transport
+github.com/xtls/xray-core/proxy/vless
+github.com/xtls/xray-core/transport/internet/finalmask/xicmp
+github.com/xtls/xray-core/infra/conf/json
+github.com/sagernet/sing/common/rw
+github.com/xtls/xray-core/core
+github.com/sagernet/sing-shadowsocks/shadowaead
+github.com/xtls/xray-core/proxy/dns
+github.com/xtls/xray-core/proxy/loopback
+github.com/xtls/xray-core/proxy/vmess/inbound
+github.com/xtls/xray-core/transport/internet/tagged/taggedimpl
+github.com/xtls/xray-core/proxy/vmess/outbound
+github.com/xtls/xray-core/proxy/shadowsocks
+github.com/sagernet/sing-shadowsocks/shadowaead_2022
+gvisor.dev/gvisor/pkg/tcpip/transport/tcpconntrack
+gvisor.dev/gvisor/pkg/tcpip/network/hash
+gvisor.dev/gvisor/pkg/tcpip/ports
+gvisor.dev/gvisor/pkg/tcpip/stack
+net/http/httptrace
+github.com/xtls/xray-core/common/protocol/quic
+google.golang.org/grpc/internal/credentials
+github.com/apernet/quic-go/internal/protocol
+github.com/miekg/dns
+net/http/internal/httpcommon
+golang.org/x/net/internal/httpcommon
+github.com/apernet/quic-go/congestion
+github.com/apernet/quic-go/internal/qerr
+github.com/apernet/quic-go/qlogwriter
+google.golang.org/grpc/credentials
+github.com/apernet/quic-go/internal/utils
+github.com/xtls/xray-core/transport/internet/hysteria/congestion/common
+google.golang.org/grpc/peer
+google.golang.org/grpc/credentials/insecure
+google.golang.org/grpc/resolver
+github.com/apernet/quic-go/internal/flowcontrol
+google.golang.org/grpc/internal/channelz
+github.com/apernet/quic-go/internal/wire
+net/http
+github.com/xtls/xray-core/transport/internet/hysteria/congestion/bbr
+github.com/xtls/xray-core/transport/internet/hysteria/congestion/brutal
+google.golang.org/grpc/internal/metadata
+google.golang.org/grpc/internal/balancer/weight
+google.golang.org/grpc/internal/proxyattributes
+google.golang.org/grpc/internal/transport/networktype
+google.golang.org/grpc/internal/resolver/passthrough
+google.golang.org/grpc/balancer/grpclb/state
+google.golang.org/grpc/channelz
+google.golang.org/grpc/internal/resolver/unix
+google.golang.org/grpc/balancer
+google.golang.org/grpc/internal/resolver/dns
+github.com/apernet/quic-go/qlog
+google.golang.org/grpc/balancer/base
+google.golang.org/grpc/internal/serviceconfig
+google.golang.org/grpc/balancer/pickfirst
+google.golang.org/grpc/resolver/dns
+google.golang.org/grpc/internal/resolver
+google.golang.org/grpc/balancer/endpointsharding
+google.golang.org/grpc/internal/balancer/gracefulswitch
+github.com/apernet/quic-go/internal/congestion
+github.com/apernet/quic-go/internal/handshake
+google.golang.org/grpc/balancer/roundrobin
+github.com/apernet/quic-go/internal/ackhandler
+gvisor.dev/gvisor/pkg/tcpip/header/parse
+gvisor.dev/gvisor/pkg/tcpip/transport/internal/noop
+gvisor.dev/gvisor/pkg/tcpip/transport/internal/network
+gvisor.dev/gvisor/pkg/tcpip/stack/gro
+gvisor.dev/gvisor/pkg/tcpip/network/internal/fragmentation
+gvisor.dev/gvisor/pkg/tcpip/transport/packet
+gvisor.dev/gvisor/pkg/tcpip/network/internal/ip
+gvisor.dev/gvisor/pkg/tcpip/network/internal/multicast
+gvisor.dev/gvisor/pkg/tcpip/link/channel
+gvisor.dev/gvisor/pkg/tcpip/link/fdbased
+gvisor.dev/gvisor/pkg/tcpip/transport/raw
+gvisor.dev/gvisor/pkg/tcpip/network/ipv4
+gvisor.dev/gvisor/pkg/tcpip/network/ipv6
+github.com/apernet/quic-go
+gvisor.dev/gvisor/pkg/tcpip/transport/icmp
+gvisor.dev/gvisor/pkg/tcpip/transport/udp
+gvisor.dev/gvisor/pkg/tcpip/transport/tcp
+gvisor.dev/gvisor/pkg/tcpip/adapters/gonet
+github.com/xtls/xray-core/transport/internet/hysteria/congestion
+github.com/apernet/quic-go/http3/qlog
+github.com/xtls/xray-core/proxy/wireguard/gvisortun
+github.com/xtls/xray-core/proxy/tun
+github.com/xtls/xray-core/proxy/wireguard
+expvar
+github.com/xtls/xray-core/common/ocsp
+github.com/xtls/xray-core/common/protocol/http
+golang.org/x/net/trace
+github.com/xtls/xray-core/common/utils
+net/http/httputil
+net/http/pprof
+golang.org/x/net/http2
+github.com/andybalholm/brotli
+github.com/xtls/xray-core/app/dispatcher
+github.com/apernet/quic-go/http3
+github.com/xtls/xray-core/app/observatory
+github.com/xtls/xray-core/transport/internet/headers/http
+github.com/xtls/xray-core/main/confloader/external
+github.com/gorilla/websocket
+github.com/xtls/xray-core/app/metrics
+github.com/xtls/xray-core/app/observatory/burst
+github.com/xtls/xray-core/app/router
+github.com/xtls/xray-core/transport/internet/browser_dialer
+google.golang.org/grpc/internal/transport
+google.golang.org/grpc/internal/resolver/delegatingresolver
+google.golang.org/grpc
+github.com/refraction-networking/utls
+google.golang.org/grpc/reflection/grpc_reflection_v1
+github.com/xtls/xray-core/app/observatory/command
+github.com/xtls/xray-core/app/log/command
+google.golang.org/grpc/reflection/grpc_reflection_v1alpha
+github.com/xtls/xray-core/app/router/command
+github.com/xtls/xray-core/app/stats/command
+github.com/xtls/xray-core/transport/internet/grpc/encoding
+google.golang.org/grpc/reflection/internal
+google.golang.org/grpc/reflection
+github.com/xtls/xray-core/app/commander
+github.com/xtls/xray-core/transport/internet/tls
+github.com/xtls/reality
+github.com/xtls/xray-core/proxy/dokodemo
+github.com/xtls/xray-core/transport/internet/hysteria
+github.com/xtls/xray-core/main/commands/all/tls
+github.com/xtls/xray-core/transport/internet/httpupgrade
+github.com/xtls/xray-core/transport/internet/websocket
+github.com/xtls/xray-core/app/dns
+github.com/xtls/xray-core/transport/internet/kcp
+github.com/xtls/xray-core/proxy/hysteria
+github.com/xtls/xray-core/transport/internet/reality
+github.com/xtls/xray-core/proxy
+github.com/xtls/xray-core/transport/internet/tcp
+github.com/xtls/xray-core/transport/internet/grpc
+github.com/xtls/xray-core/proxy/trojan
+github.com/xtls/xray-core/transport/internet/splithttp
+github.com/xtls/xray-core/proxy/freedom
+github.com/xtls/xray-core/proxy/vless/encoding
+github.com/xtls/xray-core/app/proxyman/command
+github.com/xtls/xray-core/common/mux
+github.com/xtls/xray-core/proxy/http
+github.com/xtls/xray-core/common/singbridge
+github.com/xtls/xray-core/proxy/shadowsocks_2022
+github.com/xtls/xray-core/app/reverse
+github.com/xtls/xray-core/app/proxyman/inbound
+github.com/xtls/xray-core/app/proxyman/outbound
+github.com/xtls/xray-core/proxy/socks
+github.com/xtls/xray-core/proxy/vless/inbound
+github.com/xtls/xray-core/proxy/vless/outbound
+github.com/xtls/xray-core/infra/conf
+github.com/xtls/xray-core/common/reflect
+github.com/xtls/xray-core/infra/conf/serial
+github.com/xtls/xray-core/main/commands/all/convert
+github.com/xtls/xray-core/main/toml
+github.com/xtls/xray-core/main/json
+github.com/xtls/xray-core/main/yaml
+github.com/xtls/xray-core/main/commands/all/api
+github.com/xtls/xray-core/main/commands/all
+github.com/xtls/xray-core/main/distro/all
+github.com/2dust/AndroidLibXrayLite
+gobind/gobind
+aar: AndroidManifest.xml
+aar: proguard.txt
+aar: classes.jar
+jar: META-INF/MANIFEST.MF
+jar: go/Seq$GoObject.class
+jar: go/Seq$GoRef.class
+jar: go/Seq$GoRefQueue$1.class
+jar: go/Seq$GoRefQueue.class
+jar: go/Seq$Proxy.class
+jar: go/Seq$Ref.class
+jar: go/Seq$RefMap.class
+jar: go/Seq$RefTracker.class
+jar: go/Seq.class
+jar: go/Universe$proxyerror.class
+jar: go/Universe.class
+jar: go/error.class
+jar: libv2ray/CoreCallbackHandler.class
+jar: libv2ray/CoreController.class
+jar: libv2ray/Libv2ray$proxyCoreCallbackHandler.class
+jar: libv2ray/Libv2ray.class
+aar: assets/geoip.dat
+aar: assets/geosite.dat
+aar: jni/arm64-v8a/libgojni.so
+aar: R.txt
+aar: res/
+jar: META-INF/MANIFEST.MF
+jar: go/Seq.java
+jar: go/Universe.java
+jar: go/error.java
+jar: libv2ray/CoreCallbackHandler.java
+jar: libv2ray/CoreController.java
+jar: libv2ray/Libv2ray.java

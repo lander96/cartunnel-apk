@@ -1,0 +1,7 @@
+77e50d488cf68e85b3c385e42b92b6a658dd7afdfe6292117f2532bc81250b22  docs/verification/1.1.0-artifacts/android-build-and-device.log
+52a4dfe0d1e00d6df07635ff6319c72a8e450a3527865d18e5f4e657045c3ec4  docs/verification/1.1.0-artifacts/android-build.log
+19246f92c7717415dfa3e86e324a4095d89b5ae689d447c6cbce34c1300dbbcc  docs/verification/1.1.0-artifacts/android-ui-audit.json
+7260d340e0ac958e863c9c45c83af5f2feb67c8fdc037f2e1a7991b56bf71326  docs/verification/1.1.0-artifacts/apk-audit.log
+5a2029808cfacc18041e6eb0a4b4911bb6a8abb812103529722d36ac5ec14995  docs/verification/1.1.0-artifacts/connected-android-test.log
+b4b571b7a9e6cab2ee750245cd517dc4e82ab0159bd7b5b65772bc617cce9212  docs/verification/1.1.0-artifacts/design-lint.log
+e9db9d5387718278bb211f3e1b8649a6b3bd6deaf6cda93b8e1bd29c62e810bb  docs/verification/1.1.0-artifacts/premium-audit.json

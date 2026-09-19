@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="@dimen/page_padding">
+        <TextView style="@style/CarTitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="设置"/>
+        <TextView style="@style/CarSection" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="连接恢复"/>
+        <CheckBox android:id="@+id/setting_auto_connect" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="开机自动连接"/>
+        <CheckBox android:id="@+id/setting_auto_reconnect" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="连接失败自动重试"/>
+        <CheckBox android:id="@+id/setting_network_reconnect" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="网络切换后重连"/>
+        <CheckBox android:id="@+id/setting_wake_reconnect" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="唤醒后恢复"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="自动重试间隔：1 / 2 / 5 / 10 / 30 秒"/>
+        <TextView style="@style/CarSection" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="网络"/>
+        <CheckBox android:id="@+id/setting_bypass_lan" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="绕过局域网"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="断开后可修改，下次连接生效。开启后局域网流量不经过 VPN。"/>
+        <TextView android:id="@+id/setting_error" android:layout_width="match_parent" android:layout_height="wrap_content" android:minLines="2" android:textColor="@color/danger" android:accessibilityLiveRegion="polite"/>
+        <Button android:id="@+id/setting_save" android:layout_width="match_parent" android:layout_height="@dimen/button_height" android:text="保存设置"/>
+        <TextView style="@style/CarSection" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="诊断与关于"/>
+        <Button android:id="@+id/setting_view_diagnostics" android:layout_width="match_parent" android:layout_height="@dimen/button_height" android:text="查看脱敏诊断"/>
+        <Button android:id="@+id/setting_clear_logs" android:layout_width="match_parent" android:layout_height="@dimen/button_height" android:text="清除日志"/>
+        <Button android:id="@+id/setting_licenses" android:layout_width="match_parent" android:layout_height="@dimen/button_height" android:text="许可证"/>
+        <TextView android:id="@+id/setting_version" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/section_gap"/>
+    </LinearLayout>
+</ScrollView>

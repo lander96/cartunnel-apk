@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: C=US, O=Android, CN=Android Debug
+Signer #1 certificate SHA-256 digest: f988ebba9b31078954ce2a778f86cb7b57cdd220d66030527cb5d2d5814b0fee
+Signer #1 certificate SHA-1 digest: a1a690f495228d76c06b3afe6017d9195143a5f1
+Signer #1 certificate MD5 digest: 503bc0180ae99a505cb93942f434eafa
+APK_MANIFEST_OK version=1.0.0 code=12 permission-whitelist=PASS
+NATIVE_DEFLATE_OK lib/arm64-v8a/libgojni.so,lib/arm64-v8a/libhev-socks5-tunnel.so
+APK_SIZE_BYTES 12334621
+8ac496d187f5ef56895bf1f1099cb0ed2a2f477b319e93a6c0f79468d37a493c  app/build/outputs/apk/release/app-release.apk
+ 12M	app/build/outputs/apk/release/app-release.apk

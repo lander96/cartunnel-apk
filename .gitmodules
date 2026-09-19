@@ -1,0 +1,6 @@
+[submodule "core-xray/upstream"]
+	path = core-xray/upstream
+	url = https://github.com/2dust/AndroidLibXrayLite.git
+[submodule "native/hev/upstream"]
+	path = native/hev/upstream
+	url = https://github.com/heiher/hev-socks5-tunnel.git

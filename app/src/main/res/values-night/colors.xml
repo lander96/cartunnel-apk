@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<resources>
+    <color name="background">#11191D</color>
+    <color name="surface">#19252A</color>
+    <color name="text">#EDF4F5</color>
+    <color name="muted">#A9B7BC</color>
+    <color name="border">#3A4A50</color>
+    <color name="success">#70C79B</color>
+    <color name="warning">#E9B95E</color>
+    <color name="danger">#F08E8E</color>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<resources>
+    <string name="app_name">CarTunnel</string>
+    <string name="channel_name">连接状态</string>
+    <string name="stop">断开</string>
+</resources>

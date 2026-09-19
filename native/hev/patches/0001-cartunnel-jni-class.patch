@@ -1,0 +1,12 @@
+diff --git a/Android.mk b/Android.mk
+index 1051b44..57a64d7 100644
+--- a/Android.mk
++++ b/Android.mk
+@@ -48,6 +48,7 @@ LOCAL_MODULE := hev-socks5-tunnel
+ LOCAL_SRC_FILES := $(HEV_SOCKS5_TUNNEL_SRC)
+ LOCAL_C_INCLUDES := $(HEV_SOCKS5_TUNNEL_INCLUDES)
+ LOCAL_CFLAGS += -DFD_SET_DEFINED -DSOCKLEN_T_DEFINED -DENABLE_LIBRARY
++LOCAL_CFLAGS += -DPKGNAME=com/cartunnel/client/core -DCLSNAME=HevNative
+ LOCAL_CFLAGS += $(VERSION_CFLAGS)
+ ifeq ($(TARGET_ARCH_ABI),armeabi-v7a)
+ LOCAL_CFLAGS += -mfpu=neon

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<resources>
+    <color name="primary">#167C80</color>
+    <color name="primary_pressed">#0F6265</color>
+    <color name="success">#287D55</color>
+    <color name="warning">#A66A12</color>
+    <color name="danger">#B33A3A</color>
+    <color name="background">#F3F6F7</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text">#172126</color>
+    <color name="muted">#5C6A70</color>
+    <color name="border">#CAD4D8</color>
+    <color name="focus">#43B8C0</color>
+    <color name="on_primary">#FFFFFF</color>
+</resources>
