@@ -20,7 +20,7 @@
 
 ## 安装和使用
 
-1. 通过[adb助手](https://github.com/lander96/cartunnel-apk/releases/tag/adb%E5%8A%A9%E6%89%8B)安装 [CarTunnel.apk](https://github.com/lander96/cartunnel-apk/releases/)。
+1. 通过[adb助手](https://github.com/lander96/cartunnel-apk/releases/tag/adb%E5%8A%A9%E6%89%8B)安装 [CarTunnel.apk](https://github.com/lander96/cartunnel-apk/releases/)到车机。
 2. 首次安装后，连接 ADB 并执行 VPN 授权命令：
 
    ```sh
